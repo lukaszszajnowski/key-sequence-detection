@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 116, 167);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.letter {
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+    font-size: 35px;
+    float: left;
+    text-align: center;
+}
